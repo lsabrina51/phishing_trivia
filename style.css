@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  #triv{
+    /*align stacked and center*/
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  #trivBox/*screen*/{
+    background-color: #335170;
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+    /*border*/
+    border-width: 40px;
+    border-style: solid;
+    border-color: #aaaaaa;
+    border-radius: 75px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  h2{
+    margin-left: 10%;
+    color: white ;
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+  /*change font size*/ 
+  }
+  
+  /*question spc styling*/
+  #questionspc{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Space Mono', monospace;
+    color: 	#f5d376;
+    font-size: 17px;
+  }
+  
+  /*buttons: flex box-2top and 2 bottom. 
+  text sixe, font and color
+  do a hover thing
+  (do for both ans and options*/ 
+  /*optBtns style*/
+  .optBtns{
+    background-color: #f5d376;
+    color: #335170; 
+    height: 50px;
+    font-family: 'Space Mono', monospace;
+    font-size: 17px;/*HAVE TO DO FLEXBOX*/
+    border-radius: 15em;
+    border-color:#335170;
+  }
+  
+  .optBtns:hover{
+    background-color: #f05c2f; 
+  }
+  
+  .optBtns:focus{
+    background-color: #f05c2f; 
+  }
+  
+  /*flexbox for optBtns*/ 
+  #ansSpc{
+    margin-left:10%;
+    margin-right: 10%;
+    display: flex; 
+    flex-direction: column;
+    
+  }
+  
+  /*ans buttons*/ 
+  .ansBtn{
+    background-color: #f05c2f;
+    color:white;
+    font-family: 'Space Mono', monospace;
+    font-size: 17px;
+    border-color: #335170;
+    border-radius: 5px;
+  }
+  
+  .ansBtn:hover{
+    background-color: #f5d376;
+  }
+  
+  
+  #actSpc{
+    display: flex; 
+    justify-content: flex-end;
+    margin-right: 10%;
+   margin-bottom: 10%;
+  }
+  
+  #explain{
+    margin-left: 10%; 
+    margin-right: 10%;
+    color: white; 
+    font-family: 'Space Mono', monospace;
+  }
+  
+  #questTxt{
+    color: white;
+  }
+  
+  #ProjectDoc{
+    margin-left: 15%;
+    font-size: 18px;
+  }
